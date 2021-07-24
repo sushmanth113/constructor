@@ -1,0 +1,18 @@
+<html>
+<body>
+<script>
+function Person(name) {
+  this.name = name;
+  this.greeting = function() {
+    alert('Hi! I\'m ' + this.name + '.');
+  };
+}
+let person1 = new Person('Sushmanth');
+let person2 = new Person('karnam');
+person1.name
+person1.greeting()
+person2.name
+person2.greeting()
+</script>
+</body>
+</html>
